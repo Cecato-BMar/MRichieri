@@ -486,7 +486,8 @@ a:focus {
     position: relative;
     font-size: 50px;
     font-weight: 700;
-    white-space: nowrap;
+    text-decoration: underline;
+    text-decoration-color: #aa9166;
     z-index: 1;
 }
 
@@ -498,8 +499,7 @@ a:focus {
     left: 0;
     top: 21px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    
     z-index: -1;
 }
 
@@ -511,8 +511,7 @@ a:focus {
     left: 0;
     bottom: 20px;
     background: transparent;
-    border-top: 1px solid #aa9166;
-    border-bottom: 1px solid #aa9166;
+    
     z-index: -1;
 }
 
@@ -1779,4 +1778,20 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+}
+/* MEU CSS----------------------------*/
+#mais {
+    display: none;
+}
+.botao {
+    background-color: #aa9166;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+.email-text {
+    max-width: 135px; /* ou qualquer largura desejada */
+    overflow: hidden;
+    text-overflow: ellipsis; /* opcional: para adicionar reticências ao final do texto se ele estiver cortado */
+    white-space: nowrap;
 }
